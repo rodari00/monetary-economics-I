@@ -36,13 +36,24 @@ end
 
 
 # Third method (QR decomposition: https://stephens999.github.io/fiveMinuteStats/stationary_distribution.html)
-A =  [Matrix(1.0I, 10, 10)- Pi;
-  ones(1,10)]
-b = [zeros(10,1); 1]
+A =  [(Matrix(1.0I, n_s, n_s)- Pi)';
+  ones(1,n_s)]
+b = [zeros(n_s,1); 1]
 
 Q,R = qr(A)
 b_prime = Q'*b 
 prob = LinearProblem(R, b_prime)
 sol2 = solve(prob)
 sol2.u
+
+
+
+
+
+
+
+
+
+
+
 
