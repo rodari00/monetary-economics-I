@@ -2,7 +2,7 @@
 
 julia_version = "1.8.0"
 manifest_format = "2.0"
-project_hash = "d4fcc4477949e32ca0070bb88b282557d13b3b67"
+project_hash = "e388f7128fc75560d01f8bff237b16920d76cbbf"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra"]
@@ -91,6 +91,12 @@ deps = ["LinearAlgebra"]
 git-tree-sha1 = "f641eb0a4f00c343bbc32346e1217b86f3ce9dad"
 uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 version = "0.5.1"
+
+[[deps.CategoricalArrays]]
+deps = ["DataAPI", "Future", "Missings", "Printf", "Requires", "Statistics", "Unicode"]
+git-tree-sha1 = "5f5a975d996026a8dd877c35fe26a7b8179c02ba"
+uuid = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+version = "0.10.6"
 
 [[deps.ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
