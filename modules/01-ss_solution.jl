@@ -9,7 +9,7 @@ using LinearSolve
 using Interpolations
 using CategoricalArrays
 
-include("C:\\Users\\feder\\Dropbox\\Github\\monetary-economics-I\\utils.jl")
+include("C:\\Users\\feder\\Dropbox\\Github\\monetary-economics-I\\modules\\00-utils.jl")
 using .utils
 
 export discretize_assets, discretize_productivity,
